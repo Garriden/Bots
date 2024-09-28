@@ -1,0 +1,19 @@
+
+Programming:
+	. Threads not sleeps.
+
+	. State Machine.
+
+Game:
+
+	. If the tree is not in there?
+
+	. When my pods are full.
+
+	. Go to bank.
+
+	. Battles Scarecows.
+
+
+- DOPEULS
+

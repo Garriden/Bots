@@ -1,0 +1,29 @@
+OLD COMMITS:
+
+[R0.23] Fisherman. Alchemist lv140. Pause telemetry. MainMenu window.
+
+Fisher lv40
+
+Add csvs: Alchemist lv 140, fisherman lv 40.
+
+R[0.22] Store to the bank again. Find private mode.
+
+[R0.21] Champs roadmap. Fix bugs.
+
+SaveToTheBank OK. Private mode. Observers?. New ghostRoadmaps. Solve turn number. Solve bombú roadmap.
+
+New findEnemies.
+
+[R0.20] Resurect koalaks, Alchemist lv 80. Back to track when dead. Find enemies improved.
+
+Remove trash
+
+Add x64 Release
+
+Solve When Dead. go kill monsters .Alchemist lv 80.
+
+Alchemist lv 80
+
+[R0.19] Dead Ok. Bombú wood, farmer lv 40, solve bugs.
+
+[R0.18] I am dead OK! Ghost Roadmap Ok!

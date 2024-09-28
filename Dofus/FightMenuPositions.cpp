@@ -1,0 +1,42 @@
+#include "FightMenuPositions.h"
+
+int Get_translateFightMenuPositions(int x)
+{
+	return translateFightMenuPositions[x];
+}
+
+/* Struct to translate the position in the fight menu into his Coordenates */
+int translateFightMenuPositions[] =
+{
+	FIGTH_MENU_POS_X_0,
+	FIGTH_MENU_POS_Y_0,
+	FIGTH_MENU_POS_X_1,
+	FIGTH_MENU_POS_Y_1,
+	FIGTH_MENU_POS_X_2,
+	FIGTH_MENU_POS_Y_2,
+	FIGTH_MENU_POS_X_3,
+	FIGTH_MENU_POS_Y_3,
+	FIGTH_MENU_POS_X_4,
+	FIGTH_MENU_POS_Y_4,
+	FIGTH_MENU_POS_X_5,
+	FIGTH_MENU_POS_Y_5,
+	FIGTH_MENU_POS_X_6,
+	FIGTH_MENU_POS_Y_6,
+	FIGTH_MENU_POS_X_7,
+	FIGTH_MENU_POS_Y_7,
+	FIGTH_MENU_POS_X_8,
+	FIGTH_MENU_POS_Y_8,
+	FIGTH_MENU_POS_X_9,
+	FIGTH_MENU_POS_Y_9,
+	FIGTH_MENU_POS_X_10,
+	FIGTH_MENU_POS_Y_10,
+	FIGTH_MENU_POS_X_11,
+	FIGTH_MENU_POS_Y_11,
+	FIGTH_MENU_POS_X_12,
+	FIGTH_MENU_POS_Y_12,
+	FIGTH_MENU_POS_X_13,
+	FIGTH_MENU_POS_Y_13,
+	FIGTH_MENU_POS_X_14,
+	FIGTH_MENU_POS_Y_14
+};
+

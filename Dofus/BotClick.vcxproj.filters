@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BotClick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Checks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zaap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Roadmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FightPreparation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FightStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindEnemies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FightMenuPositions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostRoadmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActualTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryScan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BotClick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OldMapings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Checks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zaap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Roadmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FightPreparation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FightStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindEnemies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FightMenuPositions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostRoadmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActualTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryScan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+    <Text Include="Release\Telemetry\ZaapToZaap\amaknaCheLv20.txt" />
+    <Text Include="Release\Telemetry\ZaapToZaap\frigost.txt" />
+    <Text Include="Release\pj.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\amaknaCheLv20.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\coastOto.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\frigost.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\gobball.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\koalak.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\plains.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\CaniaMassif.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\Dune.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\moon.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\shoreline.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Release\Telemetry\Wood\otomaiWood.csv" />
+    <None Include="Release\Telemetry\Wood\astrubAshLv1.csv" />
+    <None Include="Release\Telemetry\ZaapToBank\astrubBankTransaction.csv" />
+    <None Include="Release\Telemetry\ZaapToBank\fromAstrubZaapToBank.csv" />
+    <None Include="Release\Telemetry\Wood\fromCoastToWoodOtomai.csv" />
+    <None Include="Release\Telemetry\Wood\fromAstrubZaapToWoodLv1.csv" />
+    <None Include="Release\Telemetry\Wood\astrubAshLv1FromLenyadores.csv" />
+    <None Include="Release\Telemetry\ZaapToZaap\AstrubToCoast.csv" />
+    <None Include="Release\Telemetry\Wood\amaknaCheLv20.csv" />
+    <None Include="Release\Telemetry\Wood\amaknaCheLv20FromTallerToFinish.csv" />
+    <None Include="Release\Telemetry\Wood\formAmaknaCheLv20FinishToStart.csv" />
+    <None Include="Release\Telemetry\Wood\fromEdgeZaapToWoodLv20.csv" />
+    <None Include="Release\Telemetry\ZaapToZaap\amaknaCheLv20.csv" />
+    <None Include="Release\Telemetry\amaknaWoodTaller.csv" />
+    <None Include="Release\Telemetry\Wood\fromBreedToWoodKoalak.csv" />
+    <None Include="Release\Telemetry\Wood\fromWoodOtomaiToCenter.csv" />
+    <None Include="Release\Telemetry\Wood\kaliptusMiddle.csv" />
+    <None Include="Release\Telemetry\Ghost\coastOto.csv" />
+    <None Include="Release\Telemetry\Alch\AlchemistAstrub4_-11.csv" />
+    <None Include="Release\Telemetry\Alch\AlchemistAstrubDownToBank.csv" />
+    <None Include="Release\Telemetry\Alch\AlchemistBreederlv80impostor.csv" />
+    <None Include="Release\Telemetry\Alch\AlchemistBreederlv80.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistAstrub4_-11.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistAstrubDownToBank.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistBreederlv80.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistBreederlv80impostor.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistEdgelv40.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistEdgelv40AfterTaller.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistEdgelv40Taller1.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistEdgelv40Taller2.csv" />
+    <None Include="x64\Release\Telemetry\Farmer\gobball_lv40.csv" />
+    <None Include="x64\Release\Telemetry\Ghost\Amakna.csv" />
+    <None Include="x64\Release\Telemetry\Ghost\Astrub.csv" />
+    <None Include="x64\Release\Telemetry\Ghost\coastOto.csv" />
+    <None Include="x64\Release\Telemetry\Mineral\FromEdgeZaapToTirith.csv" />
+    <None Include="x64\Release\Telemetry\Mineral\FromTirithToEdgeZaap.csv" />
+    <None Include="x64\Release\Telemetry\Mineral\Tirith.csv" />
+    <None Include="x64\Release\Telemetry\Missions\FightClub.csv" />
+    <None Include="x64\Release\Telemetry\Missions\FightClubAfter.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaCheLv20.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaCheLv20FromTallerToFinish.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaWoodTaller.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaWoodTaller1.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaWoodTaller3.csv" />
+    <None Include="x64\Release\Telemetry\Wood\astrubAshLv1.csv" />
+    <None Include="x64\Release\Telemetry\Wood\astrubAshLv1FromLenyadores.csv" />
+    <None Include="x64\Release\Telemetry\Wood\bombu1.csv" />
+    <None Include="x64\Release\Telemetry\Wood\bombu2.csv" />
+    <None Include="x64\Release\Telemetry\Wood\bombu3.csv" />
+    <None Include="x64\Release\Telemetry\Wood\bombu4.csv" />
+    <None Include="x64\Release\Telemetry\Wood\formAmaknaCheLv20FinishToStart.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromAstrubZaapToWoodLv1.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromBreedToWoodKoalak.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromCoastToWoodOtomai.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromEdgeZaapToWoodLv20.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromWoodOtomaiToCenter.csv" />
+    <None Include="x64\Release\Telemetry\Wood\kaliptusMiddle.csv" />
+    <None Include="x64\Release\Telemetry\Wood\otomaiWood.csv" />
+    <None Include="x64\Release\Telemetry\ZaapToBank\astrubBankTransaction.csv" />
+    <None Include="x64\Release\Telemetry\ZaapToBank\fromAstrubZaapToBank.csv" />
+    <None Include="x64\Release\Telemetry\ZaapToZaap\amaknaCheLv20.csv" />
+    <None Include="x64\Release\Telemetry\ZaapToZaap\AstrubToCoast.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistMoonlv140.csv" />
+    <None Include="x64\Release\Telemetry\Fisher\SufokianShorelinelv40_1.csv" />
+    <None Include="x64\Release\Telemetry\Fisher\SufokianShorelinelv40_2.csv" />
+    <None Include="x64\Release\Telemetry\Fisher\SufokianShorelinelv40_3.csv" />
+    <None Include="x64\Release\Telemetry\Fisher\SufokianShorelinelv40_4.csv" />
+  </ItemGroup>
+</Project>

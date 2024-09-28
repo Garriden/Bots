@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{086575cf-de95-405d-bffe-786c3ab9e2d8}</ProjectGuid>
+    <RootNamespace>BotClick</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActualTime.cpp" />
+    <ClCompile Include="BasicOperations.cpp" />
+    <ClCompile Include="BotClick.cpp" />
+    <ClCompile Include="Checks.cpp" />
+    <ClCompile Include="FightPreparation.cpp" />
+    <ClCompile Include="FightStrategy.cpp" />
+    <ClCompile Include="FindEnemies.cpp" />
+    <ClCompile Include="GhostRoadmap.cpp" />
+    <ClCompile Include="Inputs.cpp" />
+    <ClCompile Include="Logs.cpp" />
+    <ClCompile Include="MemoryScan.cpp" />
+    <ClCompile Include="Menus.cpp" />
+    <ClCompile Include="Roadmap.cpp" />
+    <ClCompile Include="FightMenuPositions.cpp" />
+    <ClCompile Include="Zaap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActualTime.h" />
+    <ClInclude Include="BasicOperations.h" />
+    <ClInclude Include="BotClick.h" />
+    <ClInclude Include="Checks.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="FightPreparation.h" />
+    <ClInclude Include="FightStrategy.h" />
+    <ClInclude Include="FindEnemies.h" />
+    <ClInclude Include="FightMenuPositions.h" />
+    <ClInclude Include="GhostRoadmap.h" />
+    <ClInclude Include="Inputs.h" />
+    <ClInclude Include="Logs.h" />
+    <ClInclude Include="MemoryScan.h" />
+    <ClInclude Include="Menus.h" />
+    <ClInclude Include="Roadmap.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="OldMapings.h" />
+    <ClInclude Include="Zaap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Release\pj.txt" />
+    <Text Include="Release\Telemetry\ZaapToZaap\amaknaCheLv20.txt" />
+    <Text Include="Release\Telemetry\ZaapToZaap\frigost.txt" />
+    <Text Include="TODO.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\amaknaCheLv20.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\CaniaMassif.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\coastOto.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\Dune.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\frigost.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\gobball.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\koalak.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\moon.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\plains.txt" />
+    <Text Include="x64\Release\Telemetry\ZaapToZaap\shoreline.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Release\Telemetry\Alch\AlchemistAstrub4_-11.csv" />
+    <None Include="Release\Telemetry\Alch\AlchemistAstrubDownToBank.csv" />
+    <None Include="Release\Telemetry\Alch\AlchemistBreederlv80.csv" />
+    <None Include="Release\Telemetry\Alch\AlchemistBreederlv80impostor.csv" />
+    <None Include="Release\Telemetry\amaknaWoodTaller.csv" />
+    <None Include="Release\Telemetry\Ghost\coastOto.csv" />
+    <None Include="Release\Telemetry\Wood\amaknaCheLv20.csv" />
+    <None Include="Release\Telemetry\Wood\amaknaCheLv20FromTallerToFinish.csv" />
+    <None Include="Release\Telemetry\Wood\astrubAshLv1.csv" />
+    <None Include="Release\Telemetry\Wood\astrubAshLv1FromLenyadores.csv" />
+    <None Include="Release\Telemetry\Wood\formAmaknaCheLv20FinishToStart.csv" />
+    <None Include="Release\Telemetry\Wood\fromAstrubZaapToWoodLv1.csv" />
+    <None Include="Release\Telemetry\Wood\fromBreedToWoodKoalak.csv" />
+    <None Include="Release\Telemetry\Wood\fromCoastToWoodOtomai.csv" />
+    <None Include="Release\Telemetry\Wood\fromEdgeZaapToWoodLv20.csv" />
+    <None Include="Release\Telemetry\Wood\fromWoodOtomaiToCenter.csv" />
+    <None Include="Release\Telemetry\Wood\kaliptusMiddle.csv" />
+    <None Include="Release\Telemetry\Wood\otomaiWood.csv" />
+    <None Include="Release\Telemetry\ZaapToBank\astrubBankTransaction.csv" />
+    <None Include="Release\Telemetry\ZaapToBank\fromAstrubZaapToBank.csv" />
+    <None Include="Release\Telemetry\ZaapToZaap\amaknaCheLv20.csv" />
+    <None Include="Release\Telemetry\ZaapToZaap\AstrubToCoast.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistAstrub4_-11.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistAstrubDownToBank.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistBreederlv80.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistBreederlv80impostor.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistEdgelv40.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistEdgelv40AfterTaller.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistEdgelv40Taller1.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistEdgelv40Taller2.csv" />
+    <None Include="x64\Release\Telemetry\Alch\AlchemistMoonlv140.csv" />
+    <None Include="x64\Release\Telemetry\Farmer\gobball_lv40.csv" />
+    <None Include="x64\Release\Telemetry\Fisher\SufokianShorelinelv40_1.csv" />
+    <None Include="x64\Release\Telemetry\Fisher\SufokianShorelinelv40_2.csv" />
+    <None Include="x64\Release\Telemetry\Fisher\SufokianShorelinelv40_3.csv" />
+    <None Include="x64\Release\Telemetry\Fisher\SufokianShorelinelv40_4.csv" />
+    <None Include="x64\Release\Telemetry\Ghost\Amakna.csv" />
+    <None Include="x64\Release\Telemetry\Ghost\Astrub.csv" />
+    <None Include="x64\Release\Telemetry\Ghost\coastOto.csv" />
+    <None Include="x64\Release\Telemetry\Mineral\FromEdgeZaapToTirith.csv" />
+    <None Include="x64\Release\Telemetry\Mineral\FromTirithToEdgeZaap.csv" />
+    <None Include="x64\Release\Telemetry\Mineral\Tirith.csv" />
+    <None Include="x64\Release\Telemetry\Missions\FightClub.csv" />
+    <None Include="x64\Release\Telemetry\Missions\FightClubAfter.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaCheLv20.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaCheLv20FromTallerToFinish.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaWoodTaller.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaWoodTaller1.csv" />
+    <None Include="x64\Release\Telemetry\Wood\amaknaWoodTaller3.csv" />
+    <None Include="x64\Release\Telemetry\Wood\astrubAshLv1.csv" />
+    <None Include="x64\Release\Telemetry\Wood\astrubAshLv1FromLenyadores.csv" />
+    <None Include="x64\Release\Telemetry\Wood\bombu1.csv" />
+    <None Include="x64\Release\Telemetry\Wood\bombu2.csv" />
+    <None Include="x64\Release\Telemetry\Wood\bombu3.csv" />
+    <None Include="x64\Release\Telemetry\Wood\bombu4.csv" />
+    <None Include="x64\Release\Telemetry\Wood\formAmaknaCheLv20FinishToStart.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromAstrubZaapToWoodLv1.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromBreedToWoodKoalak.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromCoastToWoodOtomai.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromEdgeZaapToWoodLv20.csv" />
+    <None Include="x64\Release\Telemetry\Wood\fromWoodOtomaiToCenter.csv" />
+    <None Include="x64\Release\Telemetry\Wood\kaliptusMiddle.csv" />
+    <None Include="x64\Release\Telemetry\Wood\otomaiWood.csv" />
+    <None Include="x64\Release\Telemetry\ZaapToBank\astrubBankTransaction.csv" />
+    <None Include="x64\Release\Telemetry\ZaapToBank\fromAstrubZaapToBank.csv" />
+    <None Include="x64\Release\Telemetry\ZaapToZaap\amaknaCheLv20.csv" />
+    <None Include="x64\Release\Telemetry\ZaapToZaap\AstrubToCoast.csv" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
